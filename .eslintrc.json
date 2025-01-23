@@ -1,12 +1,5 @@
 {
   "extends": ["@adobe/eslint-config-aio-lib-config"],
-  "plugins": [
-    "eslint-plugin-notice"
-  ],
-  "rules": {
-    "strict": ["error", "global"],
-    "notice/notice": [ "warn", {
-      "templateFile": "./templates/code-header.js"
-    } ]
-  }
+  "plugins": [],
+  "rules": {}
 }
